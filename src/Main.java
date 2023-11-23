@@ -19,6 +19,7 @@ public class Main {
         float bottom = (float) Math.pow((1 + monthlyInterestRate), (totalNumberOfPayments)) -1;
 
         float mortgage = principal * (top / bottom);
+        // The first version of the mortgage calculator done
 
         System.out.println(mortgage);
 
